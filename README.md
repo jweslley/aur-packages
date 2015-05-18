@@ -22,6 +22,10 @@ My personal repository of [AUR packages](https://aur.archlinux.org/packages/?SeB
 
     makepkg --install
 
+### Submitting packages
+
+    makepkg --source
+
 ## References
 
 * https://wiki.archlinux.org/index.php/Arch_User_Repository
