@@ -7,7 +7,18 @@ My personal repository of [AUR packages](https://aur.archlinux.org/packages/?SeB
 
 ### Prerequisite software
 
-    pacman -S base-devel
+    pacman -S base-devel pkgbuild-introspection
+
+
+## AUR4
+
+### Submitting packages
+
+    mksrcinfo
+    git commit -am 'Update to 1.0.0'
+    git push
+
+## AUR3
 
 ### Building packages
 
